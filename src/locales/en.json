@@ -1,0 +1,103 @@
+{
+  "siteName": "Municipal Corporation Portal",
+  "home": "Home",
+  "about": "About Municipality",
+  "services": "Citizen Services",
+  "schemes": "Schemes & Programs",
+  "notices": "Notices & Tenders",
+  "documents": "Documents",
+  "contact": "Contact Us",
+  "welcome": "Welcome to the E-Municipal Portal",
+  "carouselLine": "Official Municipal Corporation Website – One Platform for Citizen Services",
+  "carousel1": "Official Municipal Corporation Website – Unified Citizen Services",
+  "carousel2": "House Tax, Water Tax and Certificates available online",
+  "carousel3": "Towards a clean, safe and smart city",
+
+  "announcements": "Announcements",
+  "announce1": "Last date for property tax payment is 31 March 2025.",
+  "announce2": "Water supply maintenance scheduled on 25 March.",
+  "announce3": "Cleanliness drive initiated across municipal areas.",
+  "announce4": "New birth and death certificate services launched.",
+
+  "news": "News",
+  "news1": "Municipal Corporation expands digital services.",
+  "news2": "Special drive under Swachh Bharat Mission.",
+  "news3": "New citizen welfare schemes announced.",
+
+  "houseTax": "House Tax",
+  "houseTaxDesc": "Pay your house tax securely through the online portal.",
+  "payNow": "Pay Now",
+
+  "usefulLinks": "Useful Links",
+  "link1": "Birth Certificate",
+  "link2": "Death Certificate",
+  "link3": "Water Bill Payment",
+  "link4": "Property Tax Details",
+  "aboutTitle": "About the Municipal Corporation",
+  "aboutIntro": "The E-Municipal portal has been developed to provide various municipal services to citizens through a digital platform.",
+
+  "aboutMunicipality": "About the Municipality",
+  "aboutMunicipalityDesc": "The Municipal Corporation is a local governing body responsible for city administration, development and management of civic amenities. Its primary objective is to build a clean, safe and well-organized city.",
+
+  "vision": "Vision",
+  "visionDesc": "To build an ideal city by providing transparent, accountable and digital services to citizens.",
+
+  "mission": "Mission",
+  "missionDesc": "To ensure efficient urban development, sanitation, health services, water supply and revenue collection.",
+
+  "functions": "Key Functions & Responsibilities",
+  "function1": "City sanitation and waste management",
+  "function2": "Water supply and sewerage system",
+  "function3": "Collection of property tax and other revenues",
+  "function4": "Issuance of birth and death certificates",
+  "function5": "Implementation of urban development schemes",
+
+  "mayorMessageTitle": "Message from the Mayor",
+  "mayorMessage": "Our goal is to provide better services to citizens and make the city clean, beautiful and smart. With citizen cooperation, we can achieve this vision.",
+
+  "contactTitle": "Contact Us",
+  "contactIntro": "For any information, suggestions or grievances related to the Municipal Corporation, citizens may contact us through the details provided below.",
+
+  "officeAddress": "Office Address",
+  "addressLine1": "Municipal Corporation Office, Civil Lines",
+  "addressLine2": "Lucknow, Uttar Pradesh – 226001",
+
+  "contactDetails": "Contact Details",
+  "phone": "Phone",
+  "phoneNumber": "0522-1234567",
+  "email": "Email",
+  "emailId": "contact@municipal.gov.in",
+  "helpline": "Helpline",
+  "helplineNumber": "155303",
+
+  "officeTimings": "Office Timings",
+  "officeDays": "Monday to Friday",
+  "officeHours": "10:00 AM to 5:00 PM",
+
+  "citizenHelp": "Citizen Assistance",
+  "citizenHelpDesc": "Citizens may register their complaints and suggestions through the helpline number or email. The Municipal Corporation will strive to resolve them at the earliest.",
+
+  "servicesTitle": "Citizen Services",
+  "servicesIntro": "The Municipal Corporation provides various services to citizens through a simple and digital platform. Citizens may access the services listed below as per their requirements.",
+
+  "service1Title": "Birth Certificate",
+  "service1Desc": "Register the birth of a newborn child and obtain a birth certificate.",
+
+  "service2Title": "Death Certificate",
+  "service2Desc": "Apply for registration of death and issuance of death certificate.",
+
+  "service3Title": "Marriage Registration",
+  "service3Desc": "Facility to register marriage and obtain marriage certificate.",
+
+  "service4Title": "House Tax Payment",
+  "service4Desc": "Pay your property tax through the online portal.",
+
+  "service5Title": "Water Tax Payment",
+  "service5Desc": "Pay outstanding water tax dues online.",
+
+  "service6Title": "Grievance Registration",
+  "service6Desc": "Register complaints and issues related to municipal services.",
+
+  "applyNow": "Apply Now",
+  "viewDetails": "View Details"
+}

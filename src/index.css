@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-hindi text-gray-900 bg-light;
+}
+
+@keyframes scroll-up {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.marquee-up {
+  animation: scroll-up 12s linear infinite;
+}
+
+.marquee-container:hover .marquee-up {
+  animation-play-state: paused;
+}
