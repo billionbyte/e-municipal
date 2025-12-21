@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import './locales/i18n'
 
 import Home from './pages/Home'
@@ -11,16 +11,14 @@ import Contact from './pages/Contact'
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/schemes" element={<Schemes />} />
-        <Route path="/notices" element={<Notices />} />
-        <Route path="/documents" element={<Documents />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/services" element={<Services />} />
+      <Route path="/schemes" element={<Schemes />} />
+      <Route path="/notices" element={<Notices />} />
+      <Route path="/documents" element={<Documents />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
   )
 }
