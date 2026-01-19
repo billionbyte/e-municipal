@@ -58,10 +58,13 @@ export default function Services() {
         <h3 className="text-xl font-semibold mb-2 text-primary">
           {t('citizenHelp')}
         </h3>
-        <p className="text-sm leading-relaxed">{t('citizenHelpDesc')}</p>
-        <p className="text-sm leading-relaxed">{t('citizenHelpDesc')}</p>
-        <p className="text-sm leading-relaxed">{t('citizenHelpDesc')}</p>
-        <p className="text-sm leading-relaxed">{t('citizenHelpDesc')}</p>
+        <p className="text-sm leading-relaxed mb-3">{t('citizenHelpDesc')}</p>
+        <ul className="list-disc list-inside text-sm space-y-2">
+          <li>{t('citizenHelpPoint1')}</li>
+          <li>{t('citizenHelpPoint2')}</li>
+          <li>{t('citizenHelpPoint3')}</li>
+          <li>{t('citizenHelpPoint4')}</li>
+        </ul>
       </section>
     </MainLayout>
   )

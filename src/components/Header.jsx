@@ -20,8 +20,18 @@ export default function Header() {
         </div>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex gap-6 text-sm font-medium">
+        <nav className="hidden md:flex gap-6 text-sm font-medium items-center">
           <NavLinks t={t} />
+
+          {/* Official Login Button */}
+          <a
+            href="http://gopalganjapp.municipalbihar.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-secondary hover:bg-white hover:text-secondary text-white px-4 py-2 rounded transition-colors duration-200"
+          >
+            {t('officialLogin')}
+          </a>
         </nav>
 
         {/* Desktop Language Switcher */}
@@ -62,6 +72,16 @@ export default function Header() {
             {/* Mobile Navigation */}
             <nav className="flex flex-col gap-4 text-sm font-medium">
               <NavLinks t={t} onClick={() => setOpen(false)} />
+
+              {/* Official Login Button */}
+              <a
+                href="http://gopalganjapp.municipalbihar.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-secondary hover:bg-white hover:text-secondary text-white px-4 py-2 rounded text-center transition-colors duration-200"
+              >
+                {t('officialLogin')}
+              </a>
             </nav>
 
             {/* Language Switcher */}
