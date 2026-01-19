@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import MainLayout from '../layout/MainLayout'
+import EOProfile from '../components/EOProfile'
 
 export default function About() {
   const { t } = useTranslation()
@@ -54,13 +55,19 @@ export default function About() {
         </ul>
       </section>
 
-      {/* Mayor Message */}
-      <section className="border p-4 bg-background">
-        <h3 className="text-xl font-semibold mb-2 text-primary">
-          {t('mayorMessageTitle')}
-        </h3>
-        <p className="text-sm leading-relaxed">{t('mayorMessage')}</p>
-      </section>
+      {/* Mayor Message & EO Profile */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {/* Mayor Message */}
+        <section className="border p-4 bg-background">
+          <h3 className="text-xl font-semibold mb-2 text-primary">
+            {t('mayorMessageTitle')}
+          </h3>
+          <p className="text-sm leading-relaxed">{t('mayorMessage')}</p>
+        </section>
+
+        {/* EO Profile */}
+        <EOProfile />
+      </div>
     </MainLayout>
   )
 }

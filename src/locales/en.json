@@ -99,5 +99,9 @@
   "service6Desc": "Register complaints and issues related to municipal services.",
 
   "applyNow": "Apply Now",
-  "viewDetails": "View Details"
+  "viewDetails": "View Details",
+
+  "eoTitle": "Executive Officer (EO)",
+  "eoName": "Ajay Kumar",
+  "eoDesignation": "Executive Officer"
 }

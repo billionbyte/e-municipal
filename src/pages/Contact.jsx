@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import MainLayout from '../layout/MainLayout'
+import EOProfile from '../components/EOProfile'
 
 export default function Contact() {
   const { t } = useTranslation()
@@ -58,16 +59,22 @@ export default function Contact() {
         </p>
       </section>
 
-      {/* Citizen Help */}
-      <section className="border p-4 bg-white">
-        <h3 className="text-xl font-semibold mb-2 text-primary">
-          {t('citizenHelp')}
-        </h3>
-        <p className="text-sm leading-relaxed">{t('citizenHelpDesc')}</p>
-        <p className="text-sm leading-relaxed">{t('citizenHelpDesc')}</p>
-        <p className="text-sm leading-relaxed">{t('citizenHelpDesc')}</p>
-        <p className="text-sm leading-relaxed">{t('citizenHelpDesc')}</p>
-      </section>
+      {/* Citizen Help & EO Profile */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {/* Citizen Help */}
+        <section className="border p-4 bg-white">
+          <h3 className="text-xl font-semibold mb-2 text-primary">
+            {t('citizenHelp')}
+          </h3>
+          <p className="text-sm leading-relaxed">{t('citizenHelpDesc')}</p>
+          <p className="text-sm leading-relaxed">{t('citizenHelpDesc')}</p>
+          <p className="text-sm leading-relaxed">{t('citizenHelpDesc')}</p>
+          <p className="text-sm leading-relaxed">{t('citizenHelpDesc')}</p>
+        </section>
+
+        {/* EO Profile */}
+        <EOProfile />
+      </div>
     </MainLayout>
   )
 }
